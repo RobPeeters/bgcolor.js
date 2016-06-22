@@ -7,24 +7,24 @@ It's very easy to use! Check it out!
 Download the HTML file and the Javascript file. Open the HTML file and change the objects which need to change color.
 ## Usage
 		function _(id) {
-		if (id) {
-		if (window === this) {
-			return new _(id);
-		}
+			if (id) {
+				if (window === this) {
+					return new _(id);
+				}
 
-		this.e = document.getElementById(id);
-		return this;
-		} 
+				this.e = document.getElementById(id);
+				return this;
+			} 
 		}
 
 The _(id) function selects an object. The user has to give an ID to this function to select an object.
 
-_.prototype = {
-	achtergrondkleur: function (kleur) {
-		this.e.style.background = kleur;
-		return this;
-	}
-};
+		_.prototype = {
+			achtergrondkleur: function (kleur) {
+				this.e.style.background = kleur;
+				return this;
+			}
+		};
 
 This function sets the backgroundcolor of the given object to a color that the user has filled in.
 
