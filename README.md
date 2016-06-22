@@ -6,16 +6,16 @@ It's very easy to use! Check it out!
 ## Installation
 Download the HTML file and the Javascript file. Open the HTML file and change the objects which need to change color.
 ## Usage
-function _(id) {
-	if (id) {
+		function _(id) {
+		if (id) {
 		if (window === this) {
 			return new _(id);
 		}
 
 		this.e = document.getElementById(id);
 		return this;
-	} 
-}
+		} 
+		}
 
 The _(id) function selects an object. The user has to give an ID to this function to select an object.
 
