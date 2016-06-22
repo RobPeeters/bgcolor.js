@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+  <content>
 # bgcolor.js
 The function of this little library is to change the backgroundcolor of objects. They could be changed with a press on a button or for example on hover.
 It's very easy to use! Check it out!
